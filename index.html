@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LocalMoneyTracker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      header {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>LocalMoneyTracker</h1>
+      <p>An offline personal finance manager built with Electron.</p>
+    </header>
+    <main>
+      <p>Version info:</p>
+      <ul>
+        <li>Chrome: <span id="chrome-version"></span></li>
+        <li>Node: <span id="node-version"></span></li>
+        <li>Electron: <span id="electron-version"></span></li>
+      </ul>
+      <p>This is a placeholder application window.</p>
+    </main>
+    <script src="renderer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "localmoneytracker",
+  "version": "0.1.0",
+  "description": "Desktop app to manage personal and family finances locally",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["finance", "personal", "offline"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "latest"
+  }
+}
